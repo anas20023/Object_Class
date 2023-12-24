@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Class and Object </title>
+</head>
+
+<body class="bg-gray-800">
+    <header class="bg-blue-600 w-full h-16 sm:h-16 lg:h-20 shadow-xl">
+        <nav class="flex flex-row justify-between text-white items-center h-full w-4/5 max-w-7xl mx-auto">
+            <div>
+                <i class="lni lni-discord text-4xl font-semibold"></i>
+
+            </div>
+            <i class="lni lni-text-align-right text-2xl 2xl:hidden"></i>
+            <div
+                class="flex-row justify-between items-center w-2/5 text-lg font-medium hidden sm:hidden md:hidden lg:hidden xl:hidden 2xl:flex">
+
+                <a class="px-6 py-2 hover:bg-white hover:text-blue-600 rounded-full transform duration-500"
+                    href="#">Home</a>
+                <a class="px-6 py-2 hover:bg-white hover:text-blue-600 rounded-full transform duration-500"
+                    href="#">About</a>
+                <a class="px-6 py-2 hover:bg-white hover:text-blue-600 rounded-full transform duration-500"
+                    href="#">Products</a>
+                <a class="px-6 py-2 bg-white text-blue-600 rounded-full transform duration-500 focus:bg-blue-600 focus:text-white"
+                    href="#">Login</a>
+            </div>
+        </nav>
+
+    </header>
+    <div class="flex flex-col w-[400px] h-[360px] bg-white mx-auto mt-20 rounded-md shadow-xl justify-center items-center">
+        <div class="flex justify-center my-5">
+            <h2 class="text-center text-xl font-bold text-gray-800"><i class="lni lni-user mx-3 font-bold"></i>User Login</h2>
+        </div>
+    
+        <form action="#" class="h-3/5 flex justify-evenly flex-col w-4/5 items-center">
+            <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-11/12 py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-full-name" type="text" placeholder="Username" required>
+    
+            <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-11/12 py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-password" type="email" placeholder="Email" required>
+    
+            <button class="shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit">
+                Login
+            </button>
+        </form>
+    </div>
+    
+
+    <script src="./classes.js"></script>
+</body>
+
+</html>
